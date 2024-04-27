@@ -1,0 +1,73 @@
+NFV and SDN
+
+Fault Detection in Network Virtualisation.
+
+Root cause analysis (RCA) and alarm correlation have been an active research topic for at least two decades.
+
+First Difficulty: Using Virtualized networks more resources and additional layers are involved in the delivery of a service. 
+				The intrinsic dynamic architecture of such systems, which are designed to be constantly reconfigured. 
+				This is clearly an obstacle to both model-based and data-driven (learning-based) approaches to RCA.
+
+Second Difficulty:  The necessity to quickly identify a malfunction or a service degradation, possibly before metrics are severely impacted, 
+					as a quick detection and isolation is the key to adaptive resource allocation.
+					
+Few scenarios:
+			- service degradation
+			- QoS degradation.
+			- performance degradation
+			- resource shortages in virtualized environments
+				- CPU overloads in virtual machines (VM)
+				- latency in messages exchanges
+				- overloads in disk access. 
+			- unavailability of models of the managed systems
+			
+Virtualisation as an example:
+-------------------------------
+According to paper they deployed ClearWater, a virtualized IP Multimedia Subsystem (IMS) services over OpenStack, fed with a traffic generator (SIPp), 
+and executed series of resource perturbations (CPU, network latency, etc.) at different application nodes. 
+Perturbation levels on the platform are carefully calibrated so that services are not yet impacted, and users do not yet start disconnecting. 
+then they select the relevant metrics to collect on this platform, and generate datasets labelled with the injected perturbations. 
+
+ClearWater  - https://specs.openstack.org/openstack/murano-specs/specs/murano-apps/clearwater.html
+IMS built exclusively using web development methods to provide voice, video and messaging services to millions of users or IoT endpoints.
+
+SIPp is a free Open Source test tool / traffic generator for the SIP protocol. It includes a few basic SipStone user agent scenarios (UAC and UAS) 
+and establishes and releases multiple calls with the INVITE and BYE methods. It can also reads custom XML scenario files describing from 
+very simple to complex call flows. It features the dynamic display of statistics about running tests (call rate, round trip delay, and message statistics), 
+periodic CSV statistics dumps, TCP and UDP over multiple sockets or multiplexed with retransmission management and dynamically adjustable call rates.
+
+Related Work (Exisiting work):
+--------------------------------
+[1] authors build a behaviour model reproduced in different fault scenarios using the tile structure derived from Viterbi-based diagnosis algorithm.
+[2] use a self-modelling and multi-layered approach that captures dependencies between network services in Software Defined Network (SDN) and NFV context 
+	and propose a RCA module using network topology.
+[3] propose an approach based on Edge-Rank to find the key events that contribute to a fault and construct a dependency graph with the correlations among 
+	events and metrics, and a detection graph, to find a path of events that represents a fault
+[4] they present a multi-level probabilistic inference model that captures the dependencies between different services in enterprise networks and describe
+	an algorithm that uses this inference graph and service response times measurements for root cause localization.
+
+In our work, we target a fault injection based approach for early fault detection (binary classification), localization and identification.
+
+The considered faults categories are:
+1) CPU stress that means increasing the CPU usage in the VM (using the stress-ng tool)
+2) Disk stress, where the disk usage increases by using the stress-ng tool; (https://manpages.ubuntu.com/manpages/kinetic/en/man1/stress-ng.1.html)
+3) Network stress, in which the network delay increases using the open source tool "tc" (https://wiki.debian.org/TrafficControl)
+
+Monitoring tools:
+1) InfluxDB is a time series based database for storing the metrics collected;
+2) Telegraf is the SNMP agent used for collecting the metrics in our VMs;
+3) Grafana is our dashboard that we configure to display the graphs for the metrics that we are collecting.
+
+After the Data Collection:
+----------------------------
+Around 63K rows of data with 35 features. 
+Target y take 13 possible values: either the no fault or a pair <fault-type,fault-location>:
+y = {Normal, CP UBono, CP UDime, CP USprout, CP UV ellum, DISKBono, DISKDime, DISKSprout, DISKV ellum, NetworkBono,NetworkDime, NetworkSprout, NetworkV ellum}
+
+
+Notations:
+---------------
+IMS - IP Multimedia Service
+NFV - Network Function Virtualisation
+SDN -  Software Defined Network
+RCA - Root cause analysis

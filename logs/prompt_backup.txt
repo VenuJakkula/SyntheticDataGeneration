@@ -1,0 +1,133 @@
+2023-06-08 23:38:10.901708 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0
+max,260006.0,147128002.0,1881.0,17.0,20580.0"""
+Generate a 10000 rows of a data in csv format, label including 0 and 1 classes with equal distribution
+
+ 2023-06-08 23:39:25.663895 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0
+max,260006.0,147128002.0,1881.0,17.0,20580.0"""
+Generate a 10000 rows of a data in csv format, label including 0 and 1 classes with equal distribution
+
+ 2023-06-08 23:44:36.932648 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0
+max,260006.0,147128002.0,1881.0,17.0,20580.0"""
+Generate a 10000 rows of a data in csv format, label including 0 and 1 classes with equal distribution
+
+ 2023-06-08 23:47:21.719639 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthentic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-08 23:51:16.086007 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthentic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-08 23:55:48.837379 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthentic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-09 09:09:07.099198 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthentic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-09 09:30:07.484745 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthentic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-09 09:30:14.478105 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthetic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-09 09:41:40.018425 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthetic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 2023-06-09 13:00:39.796158 
+ consider the columns in triple backticks ```pktcount,bytecount,dur,flows,tot_kbps,label``` and its statistics in triple quotes
+""",pktcount,bytecount,dur,flows,tot_kbps
+mean,52860,38186596,321,5,2007
+std,52023,48777482,283,2,3144
+min,0.0,0.0,0.0,2.0,0.0
+25%,808.0,79576.0,127.0,3.0,0.0
+50%,42828.0,6471930.0,251.0,5.0,4.0
+75%,94796.0,76203544.0,412.0,7.0,3838.0 \n
+max,260006.0,147128002.0,1881.0,17.0,20580.0""" \n
+Generate a 1000 rows of a synthetic data in csv format and its label including 0 and 1 classes with equal distribution
+
+ 
